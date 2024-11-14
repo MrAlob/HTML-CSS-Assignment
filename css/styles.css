@@ -454,8 +454,16 @@ footer nav a {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
+  .terms-and-conditions {
+    padding: 1rem;
+  }
+
+  .terms-and-conditions .content {
+    padding: 1.5rem;
+  }
+
   header {
-    padding: 1rem 0;
+    padding: 1rem;
   }
 
   .header-content {
@@ -469,8 +477,11 @@ footer nav a {
   }
 
   nav ul {
-    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
+    padding: 0;
   }
 
   nav ul li {
@@ -479,7 +490,7 @@ footer nav a {
 
   nav a {
     display: block;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 0.25rem;
     font-size: 0.9rem;
     white-space: nowrap;
   }
