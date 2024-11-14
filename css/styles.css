@@ -32,10 +32,12 @@ body {
 
 /* Header styles */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  background-color: #ffffff;
   padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-content {
@@ -48,27 +50,25 @@ header {
 
 /* Logo styles */
 .logo {
-  margin-right: auto; /* This pushes the logo to the left */
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-  height: 50px;
-  margin-right: 1rem;
+  max-height: 50px;
+  width: auto;
 }
 
-nav {
-  margin-left: 2rem; /* Adjust this value to move the nav more or less to the left */
-}
-
+/* Navigation styles */
 nav ul {
+  list-style: none;
   display: flex;
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  margin: 0 1rem;
+  margin-left: 1.5rem;
 }
 
 nav a {
@@ -142,18 +142,6 @@ p {
   font-size: 1.25rem;
   max-width: 600px;
   margin: 0 auto;
-}
-
-/* Styles for featured exhibits section */
-.featured-exhibits,
-#exhibitions {
-  padding: 2rem 0;
-}
-
-.featured-exhibits h2,
-#exhibitions h1 {
-  text-align: center;
-  margin-bottom: 2rem;
 }
 
 /* Improved grid layout */
