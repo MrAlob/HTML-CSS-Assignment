@@ -230,7 +230,7 @@ p {
 }
 
 .cta-button {
-  display: inline-block;
+  display: block; /* Change from inline-block to block to enable centering */
   background-color: #0077be;
   color: #ffffff;
   padding: 0.75rem 1.5rem;
@@ -238,6 +238,8 @@ p {
   text-decoration: none;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  width: fit-content; /* Keeps the button width to fit the content */
+  margin: 0 auto; /* Centers the button */
 }
 
 .cta-button:hover {
