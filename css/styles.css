@@ -320,6 +320,105 @@ footer nav a {
   }
 }
 
+/* Donation Form Styles */
+.donation-form {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.donation-form h2 {
+  color: #0077be;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.donation-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-form label {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.donation-form input {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.donation-form input:focus {
+  outline: none;
+  border-color: #0077be;
+  box-shadow: 0 0 0 2px rgba(0, 119, 190, 0.2);
+}
+
+.donation-form button {
+  margin-top: 1rem;
+  align-self: center;
+}
+
+/* Contact Form Styles */
+.contact-form.info-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.contact-form h2 {
+  color: #0077be;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #0077be;
+  box-shadow: 0 0 0 2px rgba(0, 119, 190, 0.2);
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 1rem;
+  align-self: center;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   header {
@@ -368,5 +467,12 @@ footer nav a {
     margin-left: 0;
     margin-top: 0.5rem;
     text-align: center;
+  }
+
+  .donation-form {
+    padding: 1.5rem;
+  }
+  .contact-form.info-card {
+    padding: 1.5rem;
   }
 }
