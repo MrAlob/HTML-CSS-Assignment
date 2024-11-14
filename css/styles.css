@@ -419,6 +419,51 @@ footer nav a {
   align-self: center;
 }
 
+/* Terms and Conditions Styles */
+.terms-and-conditions {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.terms-and-conditions h1 {
+  color: #0077be;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.terms-and-conditions .content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.terms-and-conditions h2 {
+  color: #0077be;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.terms-and-conditions p,
+.terms-and-conditions ul {
+  margin-bottom: 1rem;
+}
+
+.terms-and-conditions ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.terms-and-conditions a {
+  color: #0077be;
+  text-decoration: underline;
+}
+
+.terms-and-conditions a:hover {
+  text-decoration: none;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   header {
