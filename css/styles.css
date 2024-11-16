@@ -503,6 +503,7 @@ footer nav a {
   max-width: 1200px;
   margin: 0 auto;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .image-container {
