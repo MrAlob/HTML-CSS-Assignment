@@ -302,6 +302,11 @@ footer nav a {
 
 /* Responsive design */
 @media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Change to scroll for better performance on mobile */
+    background-position: top center; /* Adjust positioning for mobile */
+  }
+
   header {
     padding: 1rem 0;
   }
