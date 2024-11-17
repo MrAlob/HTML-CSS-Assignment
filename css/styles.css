@@ -12,11 +12,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0.8),
-      rgba(255, 255, 255, 0.8)
-    ),
-    url("images/hero.png");
+  background-image: url("images/hero.png")
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8));
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -161,8 +158,8 @@ p {
 
 /* Hero section */
 .hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/hero.png");
+  background-image: url("images/hero.png")
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -307,6 +304,56 @@ footer nav a {
 
 /* Responsive design */
 @media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* Change to scroll for better performance on mobile */
+    background-position: top center; /* Adjust positioning for mobile */
+  }
+
+  header {
+    padding: 1rem 0;
+  }
+
+  .header-content {
+    flex-direction: column;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer nav ul {
+    margin-bottom: 1rem;
+  }
+
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-text {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    text-align: center;
+  }
 }
 
 /* Contact Form Styles */
@@ -482,57 +529,6 @@ footer nav a {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  body {
-    background-attachment: scroll; /* Change to scroll for better performance on mobile */
-    background-position: top center; /* Adjust positioning for mobile */
-  }
-
-  header {
-    padding: 1rem 0;
-  }
-
-  .header-content {
-    flex-direction: column;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-  }
-
-  nav ul li {
-    margin: 0.5rem 0;
-  }
-
-  .hero {
-    padding: 3rem 1rem;
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  footer nav ul {
-    margin-bottom: 1rem;
-  }
-
-  .logo {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .logo-text {
-    margin-left: 0;
-    margin-top: 0.5rem;
-    text-align: center;
-  }
-
   .terms-and-conditions {
     padding: 1rem;
   }
