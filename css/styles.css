@@ -511,11 +511,6 @@ footer nav a {
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
-  .background-image {
-    position: absolute;
-    background-attachment: scroll;
-  }
-
   .terms-and-conditions {
     padding: 1rem;
   }
