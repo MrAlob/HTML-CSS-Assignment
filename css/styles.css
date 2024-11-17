@@ -509,6 +509,27 @@ footer nav a {
   line-height: 1.6;
 }
 
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077be;
+  color: white;
+  text-decoration: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+#scroll-to-top:hover {
+  background-color: #005c91;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .terms-and-conditions {
@@ -601,5 +622,13 @@ footer nav a {
 
   .content h2 {
     font-size: 2rem;
+  }
+
+  #scroll-to-top {
+    bottom: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
   }
 }
