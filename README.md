@@ -1,6 +1,6 @@
 # Community Science Museum
 
-🌐 **Live Demo:** [View Website](https://mralob.github.io/Community-Science-Museum-Website/)
+🌐 **Live Demo:** [View Website](https://mralob.github.io/HTML-CSS-Assignment/)
 
 A responsive website for the Community Science Museum, an interactive science museum designed for primary and middle school children (ages 7-15) and families with young children. This project represents my first front-end development assignment using vanilla HTML and CSS.
 
