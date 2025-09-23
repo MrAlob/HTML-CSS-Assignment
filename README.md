@@ -1,34 +1,34 @@
 # Community Science Museum
 
-🌐 **Live Demo:** [View Website](https://mralob.github.io/HTML-CSS-Assignment/)
+**Live Demo:** [View Website](https://mralob.github.io/HTML-CSS-Assignment/)
 
 A responsive website for the Community Science Museum, an interactive science museum designed for primary and middle school children (ages 7-15) and families with young children. This project represents my first front-end development assignment using vanilla HTML and CSS.
 
-## 📖 About This Project
+## About This Project
 
 This was my first major assignment in front-end development studies, where I learned to create a fully functional, responsive website from scratch using only HTML5 and CSS3. The project challenged me to implement modern web development practices including semantic HTML, responsive design, and accessibility features without relying on any frameworks or libraries.
 
-## ✨ Features
+## Features
 
-### 🎨 Design & User Experience
+### Design & User Experience
 - **Fully Responsive Design** - Optimized for mobile, tablet, and desktop devices
 - **Modern Visual Design** - Clean, colorful interface appealing to children and families
 - **Interactive Elements** - Hover effects, smooth transitions, and engaging visual elements
 - **Accessibility First** - Semantic HTML structure, skip links, and proper ARIA attributes
 
-### 🔧 Technical Implementation
+### Technical Implementation
 - **Semantic HTML5** - Proper document structure and meaningful markup
 - **Custom CSS3** - Hand-crafted styles without frameworks
 - **Flexbox & Grid** - Modern layout techniques for responsive design
 - **Cross-browser Compatibility** - Tested across multiple browsers
 - **SEO Optimized** - Meta descriptions, proper heading hierarchy, and semantic structure
 
-### 📱 Responsive Breakpoints
+### Responsive Breakpoints
 - **Mobile First** - Designed for mobile devices first, then enhanced for larger screens
 - **Tablet Optimization** - Smooth experience on medium-sized devices
 - **Desktop Enhancement** - Full-featured experience on larger screens
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Community-Science-Museum-Website/
@@ -52,37 +52,37 @@ Community-Science-Museum-Website/
 └── README.md             # Project documentation
 ```
 
-## 🚀 Pages Overview
+## Pages Overview
 
-### 🏠 **Homepage (index.html)**
+### **Homepage (index.html)**
 - Hero section with museum introduction
 - "Explore Together" section highlighting the museum's mission
 - Featured exhibitions and events
 - Call-to-action sections for visiting and getting involved
 
-### 🎪 **Exhibitions (exhibitions.html)**
+### **Exhibitions (exhibitions.html)**
 - Detailed exhibition listings
 - Upcoming events and special programs
 - Interactive exhibition previews
 - Age-appropriate content recommendations
 
-### 🤝 **Contribute (contribution.html)**
+### **Contribute (contribution.html)**
 - Volunteer opportunities
 - Donation information
 - Community involvement programs
 - Educational partnership details
 
-### 📞 **Contact (contact.html)**
+### **Contact (contact.html)**
 - Museum location and hours
 - Contact form
 - Directions and accessibility information
 - Staff contact details
 
-### 📋 **Legal Pages**
+### **Legal Pages**
 - **Privacy Policy** - Data handling and privacy information
 - **Terms & Conditions** - Website usage terms and conditions
 
-## 💻 Technologies Used
+## Technologies Used
 
 - **HTML5** - Semantic markup and modern HTML features
 - **CSS3** - Custom styling with modern CSS features including:
@@ -93,7 +93,7 @@ Community-Science-Museum-Website/
   - Custom properties and calculations
 - **GitHub Pages** - Free hosting and deployment
 
-## 🎯 Learning Objectives Achieved
+## Learning Objectives Achieved
 
 Through this project, I successfully learned and implemented:
 
@@ -106,7 +106,7 @@ Through this project, I successfully learned and implemented:
 7. **Web Performance** - Optimized images and efficient CSS
 8. **SEO Best Practices** - Meta tags, structured data, and semantic HTML
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository:**
    ```bash
@@ -127,27 +127,27 @@ Through this project, I successfully learned and implemented:
    - Use VS Code Live Server extension, or
    - Open `index.html` directly in your browser
 
-## 🌐 Deployment
+## Deployment
 
 The website is automatically deployed using **GitHub Pages**:
 - **Live URL:** https://mralob.github.io/Community-Science-Museum-Website/
 - **Deployment:** Automatic deployment from the main branch
 - **Updates:** Changes pushed to main branch are automatically deployed
 
-## 📱 Responsive Design Features
+## Responsive Design Features
 
 - **Mobile (320px - 768px):** Optimized for touch interactions and small screens
 - **Tablet (768px - 1024px):** Enhanced layout with better use of screen space
 - **Desktop (1024px+):** Full-featured experience with advanced layouts
 
-## 🎨 Design Principles
+## Design Principles
 
 - **Color Scheme:** Bright, engaging colors suitable for children and families
 - **Typography:** Clean, readable fonts with proper hierarchy
 - **Imagery:** High-quality, relevant images that enhance the content
 - **User Experience:** Intuitive navigation and clear call-to-actions
 
-## 🔍 Key CSS Techniques Used
+## Key CSS Techniques Used
 
 - **CSS Grid & Flexbox** for modern layouts
 - **CSS Variables** for consistent theming
@@ -156,7 +156,7 @@ The website is automatically deployed using **GitHub Pages**:
 - **CSS Pseudo-elements** for decorative elements
 - **Background gradients and overlays** for visual depth
 
-## 🎓 Academic Context
+## Academic Context
 
 This project was completed as part of my front-end development studies, specifically:
 - **Course:** Front-End Development Fundamentals
@@ -164,10 +164,10 @@ This project was completed as part of my front-end development studies, specific
 - **Objectives:** Learn responsive design, semantic HTML, and modern CSS techniques
 
 
-## 🤝 Contributing
+## Contributing
 
 This project is part of a school assignment and is not open for contributions. However, feedback and suggestions for learning purposes are welcome!
 
-## 📄 License
+## License
 
 This project is created for educational purposes and is not licensed for commercial use.
