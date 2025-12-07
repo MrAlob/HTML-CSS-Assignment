@@ -1,6 +1,5 @@
 # Community Science Museum
 
-**Live Demo:** [View Website](https://mralob.github.io/HTML-CSS-Assignment/)
 
 A responsive website for the Community Science Museum, an interactive science museum designed for primary and middle school children (ages 7-15) and families with young children. This project represents my first front-end development assignment using vanilla HTML and CSS.
 
@@ -118,21 +117,10 @@ Through this project, I successfully learned and implemented:
    cd Community-Science-Museum-Website
    ```
 
-3. **Open in your preferred code editor:**
-   ```bash
-   code .
-   ```
-
-4. **Launch with a local server:**
+3. **Launch with a local server:**
    - Use VS Code Live Server extension, or
    - Open `index.html` directly in your browser
 
-## Deployment
-
-The website is automatically deployed using **GitHub Pages**:
-- **Live URL:** https://mralob.github.io/Community-Science-Museum-Website/
-- **Deployment:** Automatic deployment from the main branch
-- **Updates:** Changes pushed to main branch are automatically deployed
 
 ## Responsive Design Features
 
